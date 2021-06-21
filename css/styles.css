@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+#search {
+  display: flex;
+  padding: 20px;
+  background-color: coral;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#search label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#searchInput {
+  border-radius: 5px;
+  border: none;
+}
+
+#results {
+  display: block;
+  padding: 10px;
+}
+
+#results .name {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 10px;
+  list-style-type: none;
+  border-radius: 5px;
+}
